@@ -17,6 +17,18 @@ This repository contains a hands-on data cleaning exercise. The focus is on iden
 ## 🔧 Tools Used
 
 - Google Sheets
+  
+## 🧾 Sample Data (Before Cleaning)
+
+| Transaction ID | Item     | Qty | Price | Discount | Payment Method | Order Type | Date       |
+|----------------|----------|-----|-------|----------|----------------|------------|------------|
+| TXN_4977831    | Cake     | 4.3 | 0.0   | 12.0     | Cash           | In-store   | 2023-05-16 |
+| TXN_4271093    | Cookie   | 4.1 | 0.0   | ERROR    | Credit Card    | In-store   | 2023-07-19 |
+| TXN_7034554    | Salad    | 2.5 | 10.0  | 0.0      | UNKNOWN        | UNKNOWN    | 2023-04-27 |
+| TXN_3160411    | Coffee   | 2.0 | 4.0   | 0.0      | Digital Wallet | In-store   | 2023-06-11 |
+| TXN_2628893    | Smoothie | 5.4 | 20.0  | 0.0      | Credit Card    |            | 2023-03-31 |
+
+> 🔍 Note: Values like `ERROR`, `UNKNOWN`, and missing fields were fixed during cleaning.
 
 ## 📌 Objective
 
